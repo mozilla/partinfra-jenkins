@@ -7,5 +7,4 @@ chmod 755 -R /tmp/terraform
 mv /tmp/terraform/* /usr/local/bin/
 apt-get update
 apt-get install -y unzip python-pip python-dev python-virtualenv libffi-dev libssl-dev
-pip install --upgrade cffi
-pip install ansible
+pip install --upgrade cffi ansible boto six

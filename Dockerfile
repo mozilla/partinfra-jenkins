@@ -1,4 +1,4 @@
-FROM jenkins:2.7.4
+FROM jenkins:2.19.3
 USER root
 ADD script.sh /tmp/script.sh
 RUN /tmp/script.sh

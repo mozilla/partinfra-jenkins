@@ -1,6 +1,6 @@
 #!/bin/bash
 
-wget https://releases.hashicorp.com/terraform/0.8.6/terraform_0.8.6_linux_amd64.zip -O /tmp/terraform.zip
+wget https://releases.hashicorp.com/terraform/0.8.8/terraform_0.8.8_linux_amd64.zip -O /tmp/terraform.zip
 mkdir /tmp/terraform
 unzip /tmp/terraform.zip -d /tmp/terraform
 chmod 755 -R /tmp/terraform

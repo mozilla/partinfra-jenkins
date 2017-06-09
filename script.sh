@@ -7,7 +7,7 @@ chmod 755 -R /tmp/terraform
 mv /tmp/terraform/* /usr/local/bin/
 rm -f /tmp/terraform.zip
 apt-get update
-apt-get install -y unzip python-pip python-dev python-virtualenv libffi-dev libssl-dev apt-transport-https ca-certificates libevent-dev libsasl2-modules netcat-openbsd
+apt-get install -y unzip python-pip python-dev python-virtualenv libffi-dev libcurl4-nss-dev libssl-dev apt-transport-https ca-certificates libevent-dev libsasl2-modules netcat-openbsd
 pip install --upgrade cffi ansible boto six markupsafe pycrypto
 
 wget http://repos.mesosphere.com/debian/pool/main/m/mesos/mesos_1.2.0-2.0.6.debian8_amd64.deb -O /tmp/mesos.deb
